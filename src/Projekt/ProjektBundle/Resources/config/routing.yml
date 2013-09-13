@@ -1,0 +1,9 @@
+projekt_projekt_homepage:
+    pattern:  /
+    defaults: { _controller: ProjektProjektBundle:Default:index }
+projekt_projekt_create:
+    pattern:  /create
+    defaults: { _controller: ProjektProjektBundle:Default:create }
+projekt_projekt_success:
+    pattern:  /success
+    defaults: { _controller: ProjektProjektBundle:Default:sucess }

@@ -1,0 +1,8 @@
+
+{% block content %}
+    {% for event in results %}
+          <td>{{ event.name }}</td>
+          <td>{{ event.date|date('Y-m-d H:i:s') }}</td>
+          <td>{{ event.description }}</td><br>
+    {% endfor %}
+{% endblock %}
